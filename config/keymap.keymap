@@ -61,6 +61,11 @@
             require-prior-idle-ms = <150>;
             slow-release;
         };
+
+        aaa {
+            bindings = <&kp A>;
+            key-positions = <19 20 21>;
+        };
     };
 
     macros {
